@@ -274,6 +274,10 @@ footer a {
   .contact-info a {
     color: #fce138;
   }
+
+  .contact-form {
+    text-align: left;
+  }
   
   /* REACH OUT STYLES END */
 
