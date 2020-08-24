@@ -97,6 +97,26 @@ footer a {
     background-color: #fce138;
     padding: 20px;
     color: #024e76;
+<<<<<<< HEAD
+=======
+    width: 40%;
+    margin: 3.5%;
+}
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
+>>>>>>> feature/flexbox
 }
 
 .hero-form h3 {
@@ -184,6 +204,7 @@ footer a {
     border-color: #39a6b2;
   }
 
+<<<<<<< HEAD
 .step {
   margin: 50px auto;
   padding-bottom: 50px;
@@ -237,6 +258,69 @@ footer a {
   background: #024e76;
   color: #fce138;
   flex: 1;
+=======
+  .step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .step h3 {
+    color: #024e76;
+    font-size: 46px;
+    flex: 1 30%;
+  }
+
+  .step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+  }
+
+  .step-text {
+    flex: 12;
+  }
+  
+  .step-img img {
+    max-width: 100%;
+  }
+  
+  .step-text p {
+    color: #39a6b2;
+    font-size: 18px;
+  }
+
+  .step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+  }
+
+  .trainer {
+    margin: 20px;
+    background: #024e76;
+    color: #fce138;
+    flex: 1;
+  }
+
+  .trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+>>>>>>> feature/flexbox
   }
 
   .trainer img {
@@ -275,8 +359,11 @@ footer a {
     display: inline-block;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    margin-bottom: 35px;
+    margin: 0 auto 35px auto;
     color: #024e76;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 50%;
   }
 
   .trainers {
@@ -343,6 +430,19 @@ footer a {
     margin-bottom: 15px;
     margin-top: 5px;
   }
+<<<<<<< HEAD
+=======
+
+  .contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+  }
+>>>>>>> feature/flexbox
   
 .contact-form button {
   width: 100%;
@@ -356,6 +456,7 @@ footer a {
 
   /* REACH OUT STYLES END */
 
+<<<<<<< HEAD
   .contact-info > * {
     flex: 1;
     margin: 15px;
@@ -364,3 +465,13 @@ footer a {
   .flex-row {
     display: flex;
   }
+=======
+ .flex-row {
+   display: flex;
+ }
+
+ .contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+>>>>>>> feature/flexbox
